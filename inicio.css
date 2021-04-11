@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Cabecera */
+header {
+    background-color: black;
+    width:100%;
+    height:75px;   
+}
+header div {
+    color: white;
+    font-size: large;
+    text-align: left;
+    padding-left: 170px;
+    padding-top: 30px;
+    text-shadow: 2px 5px 10px yellow;
+}
+
+header img {
+    float:left;
+}
+
+/* Fin cabecera */
+
+/* Barra lateral */
+
+nav {
+    float:left;
+    margin-right:20px;
+    padding:0;
+    width:110px;
+
+}
+
+.icon{
+	width:50px;
+}
+
+a:link {
+    text-decoration: none;
+    color:#333;
+}
+
+a{
+    width: 100%;
+    height: 100%;
+}
+
+nav div {
+    background-image: linear-gradient(to left bottom,#999,white);
+    text-align: center;
+    margin: 10px;
+    transition: 0.5s ease-in-out 0.05s;
+    width:100%;
+    border:none;
+    border-radius: 5px;
+}
+nav div:hover{
+    background-image: linear-gradient(right top,#333,rgb(9, 3, 97));
+    cursor:pointer;   
+}
+/* Fin barra lateral*/

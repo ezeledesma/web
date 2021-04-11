@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background: url("imagenes/fondo.jpg");
+	background-size: cover;
+    background-attachment:fixed;
+}
+
+section {
+	margin-top:100px;	
+}
+
+table {
+	text-align:center;
+	background-color:#FFFFFF;
+	width:40%;
+	margin:auto;
+	padding:20px;
+	border-radius:5px;
+	box-shadow: 0px 15px 30px;
+}
+
+td {
+	text-align:center;
+	padding-top:10px;
+}
+
+#logo{
+	margin-bottom:40px;	
+}
+
+#usuario,#subject,#message,#email,#phone{
+	font-size:15px;
+	width:90%;
+	border:none;
+	padding:10px;
+}
+
+.icon{
+	width:25px;
+}
+
+#boton {
+	width:100%;
+	font-size:15px;
+	padding:10px;
+	border-radius:5px;
+	color:#FFF;
+	background-color:#1A2537;
+}
+
+#boton:hover {
+	color:#000;
+	background-color:#CCCBCB;
+	cursor:pointer;
+}
